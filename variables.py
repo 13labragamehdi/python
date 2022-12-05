@@ -85,3 +85,32 @@ c = a + b
 a = c - a 
 b = c - b 
 print(a, b)
+
+# transtypage
+
+foo = "123"
+foo = int(foo)
+print(type(foo))
+
+foo = "123"
+foo = float(foo)
+print(type(foo))
+
+foo = 3.14
+foo = int(foo)
+print(type(foo))
+
+foo = 3.14
+foo = str(foo)
+print(type(foo))
+
+
+
+#
+foo = 2.71
+# récuperer la partie entiere c'est a dire 2
+a = int(foo)
+# recuperer la partie apres la virgule c'est a dire .71
+b = foo - a
+print(a)
+print(b)
