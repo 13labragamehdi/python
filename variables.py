@@ -77,3 +77,11 @@ c = a
 a = b
 b = c
 print(a, b)
+
+# variante qui marche qu'avec des nombres
+a = 123
+b = 42
+c = a + b 
+a = c - a 
+b = c - b 
+print(a, b)
