@@ -114,3 +114,36 @@ a = int(foo)
 b = foo - a
 print(a)
 print(b)
+
+# transtypage == type casting == conversion d'un type de données
+# 0 donne false et tous les autres nombres donnent true
+my_number7 = 10
+# conversion explicite en booléen
+print(bool(my_number7))
+# conversion implicite en booléen
+if (my_number7):
+    print("L'utilisateur a mis autre chose que zero")
+else:
+    print("L'utilisatuer a mis zero")
+
+my_text8 = ''
+print(bool(my_text8))
+my_text8 = '0'
+print(bool(my_text8))
+
+# listes
+fruits = ["ananas", "banane", "cerise"]
+#operateur d'inclusion
+result = "ananas" in fruits
+print(result)
+result = "fraise" in fruits
+print(result)
+
+#conversion explicite en booléen
+result = bool(fruits)
+print(result)
+#conversion implicite en booléen
+if fruits:
+    print("La liste contient des éléments")
+else:
+    print("La liste ne contient aucun élément")
