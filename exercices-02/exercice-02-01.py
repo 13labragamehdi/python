@@ -8,4 +8,13 @@
 # Affichez ces variables
 
 # réponse 2.1
-
+answer = 42
+golden_ratio = 1.61
+fullname = "Salut Mehdi Labraga"
+love_python = True
+license_agreement = None
+print(answer)
+print(golden_ratio)
+print(fullname)
+print(love_python)
+print(license_agreement)
