@@ -10,4 +10,7 @@ number = random.randint(0, 1)
 print(number)
 
 # réponse 4.1
-
+if number == 1:
+    print("Le nombre est égal à 1")
+else:
+    print("le nombre est différent de 1")

@@ -10,4 +10,7 @@ number = random.randint(0, 9)
 print(number)
 
 # réponse 4.2
-
+if number % 2 == 0:
+    print("Le nombre est pair")
+else:
+    print("le nombre est impair")
