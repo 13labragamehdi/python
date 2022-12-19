@@ -96,3 +96,9 @@ print(result)
 # utlisation un peu spéciale des comparaisons de grandeur
 
 result = "abc">"bcd"
+
+fruits = ['abricot', 'baie', 'cerise']
+result = 'ananas' in fruits
+print(result)
+result = 'cerise' in fruits
+print(result)
