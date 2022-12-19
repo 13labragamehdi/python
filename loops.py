@@ -18,3 +18,10 @@ fruits = ['abricot', 'baie', 'cerise']
 #boucle de type for each == pour chaque
 for foo in fruits:
     print(foo)
+
+for counter in range(0, 10, 2):
+    print(f'{counter = }')
+
+for counter in range(10, 0, -1):
+    print(f'{counter = }')
+
