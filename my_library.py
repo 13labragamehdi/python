@@ -1,3 +1,5 @@
+#fonction moyenne 
+
 def my_average(numbers: list) -> float:
     result = 0
 
